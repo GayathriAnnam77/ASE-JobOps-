@@ -108,8 +108,8 @@ function Navbar() {
             
           </button></Link>
           {profile1?(
-          <div >
-              <div style={{backgroundColor:"rgb(36, 35, 35)",padding:"20px",}}>
+          <div style={{backgroundColor:"white"}} >
+              <div style={{backgroundColor:"white",padding:"200px",}}>
                   <button className="button5">Email: {user}</button>
                    <Link to="/Bookmarks" style={{textDecoration:"none",color:"white"}}><button className="button5" style={{marginTop:"20px",fontSize:"36px"}}>
             Bookmarks

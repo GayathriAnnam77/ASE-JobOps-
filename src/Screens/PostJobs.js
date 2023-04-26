@@ -36,7 +36,7 @@ export default function PostJobs() {
         </div>
     <div className='postform'>
    
-       <form className='postform1' style={{marginTop:"180px",display:"grid",gap:"40px"}} >
+       <form className='postform1' style={{marginTop:"130px",display:"grid",gap:"40px"}} >
      
         <h2 style={{color:"#1d415e", fontFamily:'cursive', fontSize:25}}>Post a Job</h2>
             <input type="text" placeholder='Role' name="role" className='inputfield' onChange={(e)=>handleChange(e)}/>
