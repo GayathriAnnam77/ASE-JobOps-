@@ -15,6 +15,9 @@ import Itjobs from './Screens/Itjobs'
 import Gigs from './Screens/Gigs'
 import Servicejobs from './Screens/ServiceJobs'
 import Bookmarks from "./Screens/Bookmarks";
+import Franchise from "./Screens/Franchise";
+import Resume from './Screens/Resume';
+import Business from './Screens/Business';
 import Carrerguidance from "./Screens/Carrerguidance";
 function App() {
   const [authUser, setAuthUser] = useState(null);
@@ -45,6 +48,10 @@ function App() {
         <Route path="Servicejobs" element={<Servicejobs/>} />
         <Route path="Bookmarks" element={<Bookmarks/>} />
         <Route path="Carrerguidance" element={<Carrerguidance/>} />
+        <Route path="Franchise" element={<Franchise/>} />
+        <Route path="Resume" element={<Resume/>} />
+        <Route path="Business" element={<Business/>} />
+
         </Routes>
       ):(
         <Routes>

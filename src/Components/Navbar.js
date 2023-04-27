@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import './Navbar.css'
 import logout from '../icons8-logout-64.png'
@@ -55,19 +54,23 @@ function Navbar() {
               <Link to="/Servicejobs" style={{textDecoration:"none"}}><button className="button5">Service Jobs</button></Link>
              <Link to="/Gigs" style={{textDecoration:"none"}}> <button className="button5">Gigs</button></Link>
              <Link to="/Postjobs" style={{textDecoration:"none"}}> <button className="button5">Post a Job</button></Link>
+             <Link to="/PostaQuestion" style={{textDecoration:"none"}}> <button className="button5">Job Review</button></Link>
+             <Link to="/Resume" style={{textDecoration:"none"}}> <button className="button5">Resume & Cover Letter</button></Link>
+
              <Link to="/Carrerguidance" style={{textDecoration:"none"}}> <button className="button5"> Career Guidance</button></Link>
             </div>
           </div>
         </div>
         <div className="dropdown">
-          <button className="button5">
-            Review
+        <Link to="/Business" style={{textDecoration:"none"}}><button className="button5">
+            Business
             
-          </button>
+          </button></Link>
           <div className="dropdown-menu">
             <div>
-             <Link to="/PostaQuestion" style={{textDecoration:"none"}}> <button className="button5">Post a Question</button></Link>
               <Link to="/Businessidea" style={{textDecoration:"none"}}><button className="button5">Start-Up Review</button></Link>
+              <Link to="/Franchise" style={{textDecoration:"none"}}><button className="button5">Franchise Offers</button></Link>
+
             </div>
           </div>
         </div>
@@ -103,6 +106,8 @@ function Navbar() {
           </button>
               <Link to="/PostaQuestion" style={{textDecoration:"none",color:"white"}}> <button className="button5" style={{marginTop:"20px",fontSize:"16px",marginLeft:"20px"}}>Post a Question</button></Link>
               <Link to="/Businessidea" style={{textDecoration:"none",color:"white"}}><button className="button5" style={{marginTop:"20px",fontSize:"16px",marginLeft:"20px"}}>Start-Up Review</button></Link>
+              <Link to="/Franchise" style={{textDecoration:"none",color:"white"}}> <button className="button5" style={{marginTop:"20px",fontSize:"16px",marginLeft:"20px"}}>Franchise</button></Link>
+
               <Link style={{textDecoration:"none",color:"white"}}><button className="button5" onClick={()=>{userdata();setProfile1(!profile1)}} style={{marginTop:"20px",fontSize:"36px"}}>
             Profile
             
