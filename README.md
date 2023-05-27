@@ -1,5 +1,9 @@
-# Getting Started with Create React App
+# JobOps Web Application
 
-This project was bootstrapped with Create React App.
+The JobOps web application was developed as my final semester Capstone Project.
+
+
+
+
 
 
